@@ -29,7 +29,7 @@ class CashRegister
     @items
   end
   
-  binding.pry
+  
   def void_last_transaction
     @total - @@price
   end
